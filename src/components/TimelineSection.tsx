@@ -100,9 +100,13 @@ const TimelineSection = () => {
               }`}
             >
               {/* Dot */}
-              <div className={`absolute top-1 left-2.5 md:left-auto w-3 h-3 rounded-full bg-primary border-2 border-background ${
-                i % 2 === 0 ? "md:right-[-6.5px]" : "md:left-[-6.5px]"
-              }`} />
+              <div className={`absolute top-1 left-2.5 md:left-auto flex items-center justify-center w-4 h-4 ${
+                i % 2 === 0 ? "md:right-[-8px]" : "md:left-[-8px]"
+              }`}>
+                <div className="w-4 h-4 rounded-full border-2 border-primary bg-background flex items-center justify-center">
+                  <div className="w-2 h-2 rounded-full bg-primary" />
+                </div>
+              </div>
 
               <p className="text-primary text-xs tracking-widest uppercase font-body mb-1">{item.period}</p>
               <h3 className="text-xl font-display font-bold text-foreground mb-1">{item.role}</h3>
