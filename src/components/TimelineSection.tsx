@@ -101,13 +101,11 @@ const TimelineSection = () => {
             >
               {/* Dot */}
               <div
-                className={`absolute top-1.5 left-4 md:left-auto -translate-x-1/2 md:translate-x-0 ${
-                  i % 2 === 0 ? "md:right-[-1px]" : "md:left-[-1px]"
+                className={`absolute top-1.5 left-4 -translate-x-1/2 ${
+                  i % 2 === 0 ? "md:right-0 md:left-auto md:translate-x-1/2" : "md:left-0"
                 }`}
               >
-                <div className="w-3.5 h-3.5 rounded-full border-2 border-primary bg-background flex items-center justify-center">
-                  <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                </div>
+                <div className="w-3.5 h-3.5 rounded-full border-2 border-primary bg-background" />
               </div>
 
               <p className="text-primary text-xs tracking-widest uppercase font-body mb-1">{item.period}</p>
