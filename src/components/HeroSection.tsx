@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import idoPortrait from "@/assets/ido-portrait.png";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const HeroSection = () => {
@@ -16,7 +17,11 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          className="flex flex-col items-center"
         >
+          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-primary mb-6 glow-gold">
+            <img src={idoPortrait} alt="Ido Yoram" className="w-full h-full object-cover" />
+          </div>
           <p className="text-primary font-body tracking-[0.3em] uppercase text-sm mb-6">
             Executive Leadership
           </p>
