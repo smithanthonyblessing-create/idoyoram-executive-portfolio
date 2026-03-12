@@ -57,7 +57,7 @@ const HeroSection = () => {
           className="flex flex-wrap items-center justify-center gap-6 mt-10 text-sm text-muted-foreground font-body"
         >
           <span className="flex items-center gap-2"><MapPin size={16} className="text-primary" /> Bedfordshire, UK</span>
-          <span className="flex items-center gap-2"><Phone size={16} className="text-primary" /> +44 7807 054667</span>
+          <a href="tel:+447807054667" className="flex items-center gap-2 hover:text-primary transition-colors"><Phone size={16} className="text-primary" /> +44 7807 054667</a>
           <a href="mailto:L.yoram@btinternet.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail size={16} className="text-primary" /> L.yoram@btinternet.com
           </a>
