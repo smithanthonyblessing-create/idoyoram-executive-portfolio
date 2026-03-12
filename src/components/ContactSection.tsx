@@ -32,7 +32,7 @@ const ContactSection = () => {
             <Mail size={16} /> Email Me
           </a>
           <a
-            href="https://linkedin.com/in/idoyoram"
+            href="https://www.linkedin.com/in/ido-yoram-18aboram/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 border border-border text-foreground px-8 py-3 text-sm tracking-widest uppercase font-body hover:border-primary hover:text-primary transition-all duration-300"
@@ -49,7 +49,7 @@ const ContactSection = () => {
           className="mt-12 flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground font-body"
         >
           <span className="flex items-center gap-2"><MapPin size={14} /> Bedfordshire, UK</span>
-          <span className="flex items-center gap-2"><Phone size={14} /> +44 7807 054667</span>
+          <a href="tel:+447807054667" className="flex items-center gap-2 hover:text-primary transition-colors"><Phone size={14} /> +44 7807 054667</a>
         </motion.div>
       </div>
     </section>

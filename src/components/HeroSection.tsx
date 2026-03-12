@@ -57,11 +57,11 @@ const HeroSection = () => {
           className="flex flex-wrap items-center justify-center gap-6 mt-10 text-sm text-muted-foreground font-body"
         >
           <span className="flex items-center gap-2"><MapPin size={16} className="text-primary" /> Bedfordshire, UK</span>
-          <span className="flex items-center gap-2"><Phone size={16} className="text-primary" /> +44 7807 054667</span>
+          <a href="tel:+447807054667" className="flex items-center gap-2 hover:text-primary transition-colors"><Phone size={16} className="text-primary" /> +44 7807 054667</a>
           <a href="mailto:L.yoram@btinternet.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail size={16} className="text-primary" /> L.yoram@btinternet.com
           </a>
-          <a href="https://linkedin.com/in/idoyoram" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/ido-yoram-18aboram/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Linkedin size={16} className="text-primary" /> LinkedIn
           </a>
         </motion.div>
