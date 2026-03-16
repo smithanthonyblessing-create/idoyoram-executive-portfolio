@@ -32,7 +32,7 @@ const ContactSection = () => {
             <Mail size={16} /> Email Me
           </a>
           <a
-            href="https://www.linkedin.com/in/ido-yoram-18aboram/"
+            href="https://www.linkedin.com/in/ido-yoram-34710839/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 border border-border text-foreground px-8 py-3 text-sm tracking-widest uppercase font-body hover:border-primary hover:text-primary transition-all duration-300"

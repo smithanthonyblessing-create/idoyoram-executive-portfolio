@@ -61,7 +61,7 @@ const HeroSection = () => {
           <a href="mailto:L.yoram@btinternet.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail size={16} className="text-primary" /> L.yoram@btinternet.com
           </a>
-          <a href="https://www.linkedin.com/in/ido-yoram-18aboram/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/ido-yoram-34710839/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Linkedin size={16} className="text-primary" /> LinkedIn
           </a>
         </motion.div>
